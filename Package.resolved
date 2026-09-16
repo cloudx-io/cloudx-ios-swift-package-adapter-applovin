@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "applovin-max-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
+      "state" : {
+        "revision" : "ab755a46ff19a9a578e709aeee49653a9239f225",
+        "version" : "13.6.3"
+      }
+    },
+    {
+      "identity" : "cloudx-ios-swift-package-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cloudx-io/cloudx-ios-swift-package-core.git",
+      "state" : {
+        "revision" : "3cc5be3ef4ace3ea04d309b8bb8f879615f1c51f",
+        "version" : "3.9.1"
+      }
+    }
+  ],
+  "version" : 2
+}
