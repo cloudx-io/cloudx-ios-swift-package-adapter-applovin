@@ -31,7 +31,7 @@ The package installs CloudX Core and AppLovin SDK as dependencies. Import
 `CloudXCore` in the application. The adapter registers when the application
 loads.
 
-This package contains the CloudX AppLovin auction adapter. It is separate from
+This package contains the CloudX AppLovin adapter. It is separate from
 AppLovin MAX waterfall mediation adapters.
 
 ## Versioning
