@@ -5,6 +5,6 @@ import XCTest
 final class CloudXAppLovinAdapterSwiftTests: XCTestCase {
     func testAdapterIsLinkedAndRegistered() {
         XCTAssertEqual(CLXAppLovinAdapterVersion, "13.6.3.0")
-        XCTAssertNotNil(NSClassFromString("CLXAppLovinMediatorInitializer"))
+        XCTAssertNotNil(NSClassFromString("CLXAppLovinSDKManager"))
     }
 }
