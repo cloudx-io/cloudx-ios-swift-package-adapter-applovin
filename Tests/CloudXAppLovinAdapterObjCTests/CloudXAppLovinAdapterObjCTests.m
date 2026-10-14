@@ -9,7 +9,7 @@
 
 - (void)testAdapterIsLinkedAndRegistered {
     XCTAssertEqualObjects(CLXAppLovinAdapterVersion, @"13.6.3.0");
-    XCTAssertNotNil(NSClassFromString(@"CLXAppLovinInitializer"));
+    XCTAssertNotNil(NSClassFromString(@"CLXAppLovinSDKManager"));
 }
 
 @end
