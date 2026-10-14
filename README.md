@@ -25,6 +25,7 @@ flag to retain the adapter registration code. AppLovin also requires this flag.
 
 | Package version | CloudX adapter | AppLovin SDK |
 | --- | --- | --- |
+| `13060301.0.0` | `13.6.3.1` | `13.6.3` |
 | `13060300.0.0` | `13.6.3.0` | `13.6.3` |
 
 The package installs CloudX Core and AppLovin SDK as dependencies. Import
