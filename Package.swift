@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/cloudx-io/cloudx-ios-swift-package-core.git",
-            from: "3.9.1"
+            from: "3.11.0"
         ),
         .package(
             url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
@@ -26,8 +26,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CloudXAppLovinAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios/releases/download/adapter-applovin/13.6.3.0/CloudXAppLovinAdapter.xcframework.zip",
-            checksum: "e066215302a47830c915e6812d0e04d754141c0916f347f6ace2fdf382e24b30"
+            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-applovin/releases/download/binary/13060301.0.0/CloudXAppLovinAdapter.xcframework.zip",
+            checksum: "b39e6b1ebb993f72c375d562ddd9a4371d118f97591c16f6180faa6296e83fe8"
         ),
         .target(
             name: "CloudXAppLovinAdapterPackage",
