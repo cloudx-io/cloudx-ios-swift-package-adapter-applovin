@@ -28,6 +28,8 @@ flag to retain the adapter registration code. AppLovin also requires this flag.
 | `13060301.0.0` | `13.6.3.1` | `13.6.3` |
 | `13060300.0.0` | `13.6.3.0` | `13.6.3` |
 
+> **Do not use `13060300.0.0`.** Its framework version fails App Store validation at upload. Package versions never change, so pin `13060301.0.0` or later.
+
 The package installs CloudX Core and AppLovin SDK as dependencies. Import
 `CloudXCore` in the application. The adapter registers when the application
 loads.
