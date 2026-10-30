@@ -20,14 +20,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git",
-            exact: "13.6.3"
+            exact: "13.6.4"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "CloudXAppLovinAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-applovin/releases/download/binary/13060301.0.0/CloudXAppLovinAdapter.xcframework.zip",
-            checksum: "b39e6b1ebb993f72c375d562ddd9a4371d118f97591c16f6180faa6296e83fe8"
+            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-applovin/releases/download/binary/13060400.0.0/CloudXAppLovinAdapter.xcframework.zip",
+            checksum: "ab0937d5f9b8d1bb4ade9207f1b8f483df0e8ce5c1a779d37963c31beb3cde8e"
         ),
         .target(
             name: "CloudXAppLovinAdapterPackage",
