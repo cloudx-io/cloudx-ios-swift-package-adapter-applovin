@@ -8,7 +8,7 @@
 @implementation CloudXAppLovinAdapterObjCTests
 
 - (void)testAdapterIsLinkedAndRegistered {
-    XCTAssertEqualObjects(CLXAppLovinAdapterVersion, @"13.6.3.1");
+    XCTAssertEqualObjects(CLXAppLovinAdapterVersion, @"13.6.4.0");
     XCTAssertNotNil(NSClassFromString(@"CLXAppLovinSDKManager"));
 }
 
